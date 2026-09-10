@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" 
+        href="assets/favicon-32x32.png" 
+        type="image/png" 
+        size="32*32"/>
+        <title>Oms-grid-landing-page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="grid-card">
+        <div class="header">
+            <header>
+                <span class="brand-title">
+                    <img class="brand-logo" src="assets\favicon-32x32.png" alt="Logo" onerror="this.style.display='none'">
+                    Bridge Collective
+                </span>
+                <button class="menu-toggle" id="menuBtn" aria-label="Open Menu">
+                    <img class="icon-hamburger" src="assets\icon-menu.svg" alt="" aria-hidden="true"/>
+                </button>
+            </header>
+        </div>
+
+        <div class="c-body">
+            <main>
+                <h1>A classroom<br> for every child.</h1>
+                <p>We fund the schools, train the teachers, and<br> measure what works — so every child we reach<br> today becomes a graduate tomorrow.</p>
+            </main>
+            <aside>
+                <div class="card-1">
+                    <div class="value">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.69 3.752a1.334 1.334 0 0 1 2.62 0l1.402 7.41a2.67 2.67 0 0 0 2.125 2.126l7.411 1.401a1.334 1.334 0 0 1 0 2.622l-7.41 1.401a2.67 2.67 0 0 0-2.126 2.125l-1.401 7.411a1.334 1.334 0 0 1-2.622 0l-1.4-7.41a2.67 2.67 0 0 0-2.126-2.126l-7.41-1.401a1.334 1.334 0 0 1 0-2.622l7.41-1.401a2.67 2.67 0 0 0 2.125-2.125z"/>
+                            </svg>
+                        </div>
+                        <p>2.4M</p>
+                    </div>
+                    <h4>Students reached</h4>
+                    <p>Across 31 countries since 2011.</p>
+                </div>
+                <div class="card-2">
+                    <div class="value">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M6.667 16h18.666M16 6.667v18.666"/>
+                            </svg>
+                        </div>
+                        <p>1,284</p>
+                    </div>
+                    <h4>Schools partnered</h4>
+                    <p>In 14 countries, from Kenya to Guatemala.</p>
+                </div>
+                <div class="card-3">
+                    <div class="value">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M6.667 16h18.666M16 6.667 25.333 16 16 25.333"/>
+                            </svg>
+                        </div>
+                        <p>38K</p>
+                    </div>
+                    <h4>Teachers trained</h4>
+                    <p>Equipped with modern tools and methodology.</p>
+                </div>
+                <div class="card-4">
+                    <div class="value">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M21.334 9.333h8v8M29.333 9.333 18 20.667 11.333 14l-8.666 8.667"/>
+                            </svg>
+                        </div>
+                        <p>
+                            3.1
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 6 6 18M6 6l12 12"/>
+                            </svg>
+                        </p>
+                    </div>
+                    <h4>Graduation lift</h4>
+                    <p>Partner schools outperform national averages 3x.</p>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <p>&copy; 2026 Bridge Collective</p>
+            <h5>Registered charity 12345678</h5>
+        </footer>
+    </div>
+
+    <!-- Navigation Menu Modal -->
+    <nav class="menu-modal" id="menuModal" aria-hidden="true">
+        <div class="modal-content-area">
+            <div style="text-align: right; margin-bottom: 40px;">
+                <button class="close-btn" id="closeBtn" aria-label="Close Menu">&times;</button>
+            </div>
+            <ul class="modal-nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Work</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Annual Report</a></li>
+                <li><a href="#">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
