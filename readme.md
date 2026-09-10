@@ -6,7 +6,7 @@ This is a solution to the [Grid landing page challenge on Frontend Mentor](https
 
 * [The challenge](https://www.frontendmentor.io/challenges/grid-landing-page)
 * [Screenshot](oms-grid-landing-page/preview.png)
-* [Links](https://www.google.com/search?q=%23links)
+* [Links](https://frontend-oms-grid.netlify.app)
 * 
 
 * [My process]()
@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-* Solution URL: [Add your repository URL here]
-* Live Site URL: [Add your live site URL here]
+* Solution URL: [[](https://github.com/OMS-Create/frontend-oms.)]
+* Live Site URL: [[](https://frontend-oms-grid.netlify.app)]
 
 ## My process
 
@@ -89,7 +89,7 @@ document.addEventListener('keydown', (e) => {
 
 ### Continued development
 
-As a student web developer based in Lagos, Nigeria, I plan to continue refining my skills with complex, responsive CSS Grid architectures. Moving forward, I want to experiment more with adding fluid CSS animations and interactive transitions to mobile navigation menus to make them feel even more polished.
+As a student web developer, The plan is to continue refining my skills with complex, responsive CSS Grid architectures. Moving forward, I want to experiment more with adding fluid CSS animations and interactive transitions to mobile navigation menus to make them feel even more polished.
 
 ## Author
 
